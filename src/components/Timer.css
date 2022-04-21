@@ -1,0 +1,85 @@
+::placeholder {
+    color: rgba(172, 172, 172, 0.635);
+  }
+  
+  .father-orders {
+    width: 500px;
+    height: 500px;
+    padding-top: 50px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .orders-child {
+    background-color: rgb(220, 238, 253);
+    font-size: 24px;
+    padding: 50px;
+  }
+  
+  /* STYLE OF INSERT */
+  .post-form {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    background: linear-gradient(#4b6cb7, #182848);
+    padding: 100px;
+    border-radius: 5px;
+  }
+  
+  .form-title {
+    color: aliceblue;
+    font-size: 26px;
+  }
+  
+  .form-child {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    width: 100%;
+    text-align: start;
+    color: aliceblue;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    height: 45%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  /* GLOW EFFECT TO INPUT IF IS IN FOCUS */
+  .form-input:focus {
+    outline: none;
+    border-color: #7abbf0;
+    box-shadow: 0 0 15px #7abbf0;
+  }
+  
+  .order-post-button {
+    width: 150px;
+    height: 60px;
+    margin: auto auto;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #7abbf0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  /* SUBMIT BUTTON ANIMATION ON HOVER */
+  .order-post-button:hover {
+    background-color: white;
+    color: black;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
